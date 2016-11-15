@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ADA4075
+D Very low noise audio op amp
+F http://www.analog.com/static/imported-files/data_sheets/ADA4075-2.pdf
+$ENDCMP
+#
 $CMP ARDUINO_MICRO
 D Arduino Micro shield
 K arduino, micro
@@ -72,6 +77,12 @@ $ENDCMP
 #
 $CMP OLED_DISPLAY
 D DISPLAY EA7123-12C
+$ENDCMP
+#
+$CMP OP275
+D Dual Op amp (low power)
+K ampliop
+F analog-dev/op275.pdf
 $ENDCMP
 #
 #End Doc Library
